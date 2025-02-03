@@ -1,12 +1,14 @@
 body{
-    background-color: black;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    align-items: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #0f0c29;
+    color: #fff;
     display: flex;
     justify-content: center;
+    align-items: center;
     height: 100vh;
-    margin: 0;
+    text-align: center;
 }
 .home-button{
     background-color: #de1600;
@@ -23,3 +25,16 @@ body{
     text-decoration: none;
     transition: background-color 0.3s;
 }
+.home-button:hover{
+    background-color: #ff1900;
+}
+.home-button {
+    font-size: 16px;
+    padding: 8px 16px;
+  }
+  h1{
+    font-size: 120px;
+    margin-bottom: auto;
+    
+  }
+
